@@ -1,6 +1,6 @@
 # arecord、aplay 实现录音和播放
 
-​																																						--2020/6/15
+​																																						2020/6/15
 
 ## 1.查看录音设备
 
@@ -8,7 +8,7 @@
 $ arecord -l
 ```
 
-![image-20200615164758374](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200615164758374.png)
+![image-20200615164758374.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200615164758374.png?raw=true)
 
 ## 2.录音
 
