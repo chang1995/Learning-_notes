@@ -22,7 +22,7 @@ $ ./sam-ba -p usb -b samv71-xplained -a bootconfig -c writecfg:bootmode:flash
 
 需要在下载的sam_ba的目录下运行,执行完命令后重新上电即可从flash中启动.
 
-![image-20200617111006959](/home/xuhui/.config/Typora/typora-user-images/image-20200617111006959.png)
+![image-20200617111006959.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200617111006959.png?raw=true)
 
 ## 3. loading boot_loader to Flash
 
@@ -32,7 +32,7 @@ $ ./sam-ba -p usb -b samv71-xplained -a internalflash -c erase -c write:/home/xu
 
 将自己的Bin文件下载进flash中,同样需要在sam-ba的目录下进行下载.
 
-![image-20200617111224462](/home/xuhui/.config/Typora/typora-user-images/image-20200617111224462.png)
+![image-20200617111224462.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200617111224462.png?raw=true)
 
-![image-20200617111357651](/home/xuhui/.config/Typora/typora-user-images/image-20200617111357651.png)
+![image-20200617111357651.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200617111357651.png?raw=true)
 

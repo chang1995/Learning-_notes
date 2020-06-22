@@ -1,12 +1,12 @@
 # conda 使用教程(linux) 
 
-​																											 										     --2020/6/15
+2020/6/15
 
 ## 1.下载安装
 
 ### 1.1下载
 
-所有版本镜像(清华大学开源镜像网站)：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/
+所有版本镜像(清华大学开源镜像网站)：https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/  		
 
 从中选择合适版本的镜像下载.如 [Anaconda3-5.3.1-Linux-x86_64.sh](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/Anaconda3-5.3.1-Linux-x86_64.sh)
 
