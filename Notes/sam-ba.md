@@ -4,9 +4,9 @@
 
 在官网上下载合适的版本  
 
-网址: [https://www.microchip.com/developmenttools/ProductDetails/SAM-BA%20In-system%20Programmer](https://www.microchip.com/developmenttools/ProductDetails/SAM-BA In-system Programmer)  
+网址: https://www.microchip.com/
 
-然后进行解压
+右上角搜索框中搜索输入`sam-ba`进行查找,选择合适版本下载,然后进行解压.
 
 ## 2. boot from Flash
 
