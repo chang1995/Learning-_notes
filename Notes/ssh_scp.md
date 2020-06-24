@@ -62,15 +62,13 @@ $ ssh xuhui@10.9.27.161
 $ sudo service ssh stop
 ```
 
-![image-20200624104440874](/home/xuhui/.config/Typora/typora-user-images/image-20200624104440874.png)
+![image-20200624104440874.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200624104440874.png?raw=true)
 
 在关闭SSH服务后,利用` $ ps -e | grep ssh`可以查看到服务已经关闭.
 
-
-
 ## 7. SCP的使用
 
-利用scp可以从服务器上,上传或者下载文件.**远方服务器需要开启SSH服务.**		
+利用scp可以从服务器远程上传或者下载文件.**远方服务器需要开启SSH服务.**		
 
 例如:从`服务器用户名:xuhui`,`IP地址:10.9.27.161`拷贝文件执行以下命令. 拷贝文件夹时,使用`scp -r`
 
