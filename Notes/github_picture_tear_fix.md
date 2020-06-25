@@ -2,13 +2,13 @@
 
 ## 1. 查看IP是否修改
 
-* 登录https://www.ipaddress.com/  查看 `raw.githubusercontent.com`的IP地址，判断IP是否更改。
+登录https://www.ipaddress.com/  查看 `raw.githubusercontent.com`的IP地址，判断IP是否更改。
 
-![image-20200625231137743](/home/cxh/.config/Typora/typora-user-images/image-20200625231137743.png)
+![image-20200625231137743.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200625231137743.png?raw=true)
 
 ---
 
-![image-20200625231654172](/home/cxh/.config/Typora/typora-user-images/image-20200625231654172.png)
+![image-20200625231518940.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200625231518940.png?raw=true)
 
 ## 2. 修改host文件恢复正常
 
