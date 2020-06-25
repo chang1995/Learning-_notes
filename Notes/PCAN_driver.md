@@ -8,9 +8,7 @@ PCAN 需要**peak can driver** 和 **PCAN-Basic for Linux** 进行.
 
 * [PCAN-Basic for Linux](https://www.peak-system.com/quick/BasicLinux) : https://www.peak-system.com/quick/BasicLinux
 
-
-
-<img src="/home/xuhui/.config/Typora/typora-user-images/image-20200624172828777.png" alt="image-20200624172828777" style="zoom: 67%;" />
+![image-20200624172828777.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200624172828777.png?raw=true)
 
 注: 可以继续安装页面下端的pcanview软件,对can线上的数据进行调试和监控.
 
