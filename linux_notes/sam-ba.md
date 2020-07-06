@@ -10,7 +10,7 @@
 
 ## 2. boot from Flash
 
-By default, samv7 boots from ROM, we want it boot from Flash. Using SAM-BA we can set a non-valotile config bit on the chip so it **boots from Flash after power cycle.**
+By default, samv7 boots from ROM, we want it boot from Flash. Using SAM-BA we can set a non-valotile config bit on the chip so it **boots from Flash after power cycle.**  （也可以直接用下面所说的reset操作，无需重新上电）
 
 ```
 $ cd ~/Downloads/sam-ba_3.3.1
@@ -36,7 +36,15 @@ $ ./sam-ba -p usb -b samv71-xplained -a internalflash -c erase -c write:/home/xu
 
 ![image-20200617111357651.png](https://github.com/chang1995/Learning_Notes/blob/master/picture_library/image-20200617111357651.png?raw=true)
 
-## 4. 注意事项
+## 4. reset
+
+```
+$ ./sam-ba_3.3.1/sam-ba -p usb -b samv71-xplained -a reset
+```
+
+可以通过这条命令直接reset MCU无需重新上电。
+
+## 5. 注意事项
 
 MCU与SAM-BA的连接是由于芯片内有一段固化的代码运行起来后才会检测到目标板并建立连接.   
 **假设现在你烧写了Bootstrap进去，芯片上电后发现有可运行的代码，从而就不执行片内固化的那个代码. 因此,就无法与SAM-BA建立连接**.解决方法主要有以下几个方面:  
